@@ -82,9 +82,15 @@ Berikut ini hasil dari (EDA)
 
 1. Dari 1.888 data tidak ada data yang kosong.
 2. Jumlah data untuk label 0 adalah 911, dan label 1 adalah 977, sehingga dapat dikatakan bahwa distribusi datanya seimbang.
-images/distribusi_label.png
-3. 
-
+![distribusi label](https://raw.githubusercontent.com/yest/proyek1-mlt/refs/heads/main/images/distribusi_label.png)
+3. Berikut ini hasil distribusi untuk kolom-kolom bertipe numerik.
+    - age: Sebagian besar peserta memiliki usia antara 50-60 tahun. Tidak ada outlier yang signifikan.
+    - trestbps: Sebagian besar peserta memiliki tekanan darah istirahat sekitar 120-140 mmHg. Terdapat beberapa outlier dengan tekanan darah yang lebih tinggi.
+    - chol: Sebagian besar peserta memiliki kadar kolesterol sekitar 200-300 mg/dL. Terdapat beberapa outlier dengan kadar kolesterol yang lebih tinggi.
+    - thalachh: Sebagian besar peserta memiliki detak jantung maksimum sekitar 150-160 bpm. Terdapat beberapa outlier dengan detak jantung maksimum yang lebih rendah.
+    - oldpeak: Sebagian besar peserta memiliki depresi ST yang rendah (dekat dengan 0). Terdapat beberapa outlier dengan depresi ST yang lebih tinggi.
+Berikut ini adalah boxplot dari setiap kolom bertipe numerik.
+![boxplot](https://raw.githubusercontent.com/yest/proyek1-mlt/refs/heads/main/images/boxplot.png)
 
 ## Data Preparation
 
